@@ -1,0 +1,89 @@
+http://c.brightcove.com/services/viewer/federated_f9?
+width=100%
+height=100%
+flashID=bc-video-4226134179001-1
+bgcolor=#FFFFFF
+playerID=3160175193001
+playerKey=AQ~~,AAAB668kGak~,LMlvL4u4ShOTHD9z00VquajMOcH97tcW
+isVid=true
+isUI=true
+videoSmoothing=true
+seamlessTabbing=false
+swliveconnect=true
+dynamicStreaming=true
+autoStart=true
+@videoPlayer=4226134179001
+linkBaseURL=http://for.tn/1GTWZ6N
+includeAPI=true
+templateLoadHandler=Fortune_onTemplateLoad
+templateReadyHandler=brightcove["templateReadyHandlerbc-video-4226134179001-1"]
+wmode=opaque
+adServerURL=http://pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&impl=s&output=…h=tech&topic=leighgallagher&unviewed_position_start=1&correlator=timestamp
+debuggerID=
+originalTemplateReadyHandler=Fortune_onTemplateReady
+startTime=1432950856682
+
+
+rtmp://cp140739.edgefcs.net:1935/ondemand?videoId=4265138939001&lineUpId=&pubId=2111767321001&playerId=3160175193001&affiliateId=/mp4:videos/2111767321001/201505/3810/2111767321001_4226178926001_4226134179001.mp4?videoId=4226134179001&lineUpId=&pubId=2111767321001&playerId=3160175193001&affiliateId=
+
+rtmp://cp140739.edgefcs.net:1935/ondemand?videoId=4226134179001&lineUpId=&pubId=2111767321001&playerId=3160175193001&affiliateId=/mp4:videos/2111767321001/201505/3810/2111767321001_4226178926001_4226134179001.mp4?videoId=4226134179001&lineUpId=&pubId=2111767321001&playerId=3160175193001&affiliateId=
+
+Request URL:http://b.scorecardresearch.com/p?c1=19&c2=6035728&ns_ap_an=brightcove%3B%20Chromeless%20-%202014%20Fortune.com&ns_ap_pn=as3&ns_ap_pv=17%2C0%2C0%2C188&c12=11a7fc7fc39676fdd59450b792f6e1c0-cs72&ns_ap_ec=4&ns_ap_ev=hidden&ns_ap_device=Google%20Pepper&ns_ap_id=-1&ns_ap_bi=&ns_ap_pfm=PlugIn&ns_ap_pfv=17%2C0%2C0%2C188&ns_ap_ver=unknown&ns_ap_sv=2.1411.18&ns_type=hidden&ns_st_sv=4.1412.08&ns_st_pv=4.2.1&ns_st_it=c&ns_st_id=1432972055912_1&ns_st_ec=4&ns_st_sp=1&ns_st_cn=1&ns_st_ev=hb&ns_st_po=7904&ns_st_cl=149073&ns_st_el=149073&ns_st_hc=1&ns_st_mp=brightcove&ns_st_mv=undefined&ns_st_pn=1&ns_st_tp=1&ns_st_pt=10030&ns_st_pa=10030&ns_st_ci=4226134179001&ns_ap_res=0x0&ns_ap_cs=0&ns_ap_lang=zh-CN&ns_ts=1432972093701&ns_st_pe=1&ns_st_bc=1&ns_st_bt=15082&ns_st_bp=15082&ns_st_pc=1&ns_st_pp=1&ns_st_br=0&ns_st_ub=0&ns_st_vo=100&ns_st_ws=norm&ns_st_pl=Will%20younger%20executives%20take%20Alibaba%20into%20its%20digital%20future%3F&ns_st_pr=Will%20younger%20executives%20take%20Alibaba%20into%20its%20digital%20future%3F&ns_st_ep=Will%20younger%20executives%20take%20Alibaba%20into%20its%20digital%20future%3F&ns_st_ty=video&ns_st_ct=vc11&ns_st_pu=Fortune.com&ns_st_cu=rtmp%3A%2F%2Fcp140739.edgefcs.net%2Fondemand%2F%26mp4%3Avideos%2F2111767321001%2F201505%2F3810%2F2111767321001_4226178926001_4226134179001.mp4&c3=Fortune.com&c4=Will%20younger%20executives%20take%20Alibaba%20into%20its%20digital%20future%3F&c6=*null&c7=http%3A%2F%2Ffortune.com%2Fvideo%2F2015%2F05%2F08%2Fwill-younger-executives-take-alibaba-into-its-digital-future%2F&c8=Will%20younger%20executives%20take%20Alibaba%20into%20its%20digital%20future%3F%20-%20Fortune&c9=
+
+rtmp://cp140739.edgefcs.net:1935/ondemand?videoId=4265138939001&lineUpId=&pubId=2111767321001&playerId=3160175193001&affiliateId=/mp4:videos/2111767321001/201505/3810/2111767321001_4226178926001_4226134179001.mp4?videoId=4226134179001&lineUpId=&pubId=2111767321001&playerId=3160175193001&affiliateId=
+
+//视频rtmp地址
+
+rtmp://cp140739.edgefcs.net/ondemand/&mp4:videos/2111767321001/201505/3810/2111767321001_4226178926001_4226134179001.mp4
+
+rtmpdump --rtmp rtmp://cp140739.edgefcs.net/ondemand --playpath mp4:videos/2111767321001/201505/3810/2111767321001_4226178926001_4226134179001.mp4 -o aaa.mp4
+
+
+//示例
+rtmp://cp126124.edgefcs.net/ondemand/&mp4;:rtmp_pd/196217268/196217268_2330789578001_AMC-MM-606-NextOn.mp4
+
+//rtmpdump代码
+rtmpdump --rtmp rtmp://cp126124.edgefcs.net/ondemand --playpath mp4:rtmp_pd/196217268/196217268_2330789578001_AMC-MM-606-NextOn.mp4 -o 606.mp4
+
+//音频酷抓
+rtmpt://60.254.131.113:1935/ondemand?_fcs_vhost=cp11276.edgefcs.net/mp3:media.thomson-webcast.net/index=/1/4/2/5/3/3/6/2/0/0/~/m/instances/8qfcz37z/items/5wurmfcb/clips/dvzgs4dr/0/clip?itemview=k2q9ms8exgpjw9mq1vstojz376oj8cc5ajvcwf62jeqlv7x6_113720736&mmc_installation=mmc_production&mmc_installation_type=prod
+
+//0
+http://edge.media-server.com/m/item_refresh/p/odj2c5ie/i/5wurmfcb/mode/ondemand/lan_idx/0/irid/b4f0f1986090b006460e17873936deda6f569707686c81e0717cb6684e1ac200/iv/20/lc/1432978781/chart_relative/0/mximgw/800//retries/0
+
+//0--2
+http://edge.media-server.com/m/item_refresh/p/odj2c5ie/i/5wurmfcb/mode/ondemand/lan_idx/0/irid/b4f0f1986090b006460e17873936deda6f569707686c81e0717cb6684e1ac200/iv/20/lc/1432987376/chart_relative/0/mximgw/800//retries/0
+
+//0-response
+item: {errors: [], id: "5wurmfcb", refresh: {,…}, assets: [],…}
+assets: []
+assets_hash: "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+errors: []
+id: "5wurmfcb"
+refresh: {,…}
+interval: 20
+link: "http://edge.media-server.com/m/item_refresh/p/odj2c5ie/i/5wurmfcb/mode/ondemand/lan_idx/0/irid/b4f0f1986090b006460e17873936deda6f569707686c81e0717cb6684e1ac200/iv/20/lc/1432987739/chart_relative/0/mximgw/800"
+server_playback_time: 0
+server_time: 1432987739
+
+//coolzhua
+url: rtmp://23.216.11.207:1935/ondemand?_fcs_vhost=cp11276.edgefcs.net/mp3:media.thomson-webcast.net/index=/1/4/2/5/3/3/6/2/0/0/~/m/instances/8qfcz37z/items/5wurmfcb/clips/dvzgs4dr/0/clip?itemview=hg213bw3vse56b1vlubjk9phcgt4sgqpwet2r2d4ks2b7xt7_113724388&mmc_installation=mmc_production&mmc_installation_type=prod
+
+app: ondemand?_fcs_vhost=cp11276.edgefcs.net
+
+flashVer: WIN 17,0,0,188
+
+pageUrl: http://edge.media-server.com/m/p/odj2c5ie/lan/en
+
+swfUrl: http://edge.media-server.com/version/1429262280/m/player/player_desktop3.swf
+
+tcUrl: rtmp://23.216.11.207:1935/ondemand?_fcs_vhost=cp11276.edgefcs.net
+
+playPath: mp3:media.thomson-webcast.net/index=/1/4/2/5/3/3/6/2/0/0/~/m/instances/8qfcz37z/items/5wurmfcb/clips/dvzgs4dr/0/clip?itemview=hg213bw3vse56b1vlubjk9phcgt4sgqpwet2r2d4ks2b7xt7_113724388&mmc_installation=mmc_production&mmc_installation_type=prod
+
+
+//ident
+http://cp11276.edgefcs.net/fcs/ident
+
+//rtmpdump代码
+rtmpdump --rtmp rtmp://cp11276.edgefcs.net/ondemand --playpath mp3:media.thomson-webcast.net/index=/1/4/2/5/3/3/6/2/0/0/~/m/instances/8qfcz37z/items/5wurmfcb/clips/dvzgs4dr/0/clip?itemview=hg213bw3vse56b1vlubjk9phcgt4sgqpwet2r2d4ks2b7xt7_113724388&mmc_installation=mmc_production&mmc_installation_type=prod -o audio.mp3

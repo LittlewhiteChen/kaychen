@@ -1,0 +1,76 @@
+/* 整体布局 */
+.header,.footer,.wrap-page{
+  position:absolute;
+  left:0;
+  right:0;
+  background-color: #fff;
+}
+.header,.footer{
+  height:44px;
+  background-color: #fff;
+  text-align: center;
+  z-index:900;
+  line-height:44px;
+}
+.header{
+  top: 0;
+  border-bottom: 1px solid #f00;
+}
+.footer{
+  bottom: 0;
+  border-top: 1px solid #f00;
+}
+.wrap-page{
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* page布局 */
+/* 默认有header无footer，所以top为header的高度，bottom为0 */
+.page {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 44px;
+  bottom: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+
+  -webkit-transition:0.3s  ease-in-out;
+  transition:0.3s  ease-in-out;
+}
+
+/* layout */
+/* 无header有footer，所以page排除footer的高度，top为0，bottom为footer的高度 */
+.page-not-footer {
+  top: 0;
+  bottom: 44px;
+}
+/* 有header和footer，所以page排除两者的高度，top为header的高度，bottom为footer的高度 */
+.page-not-header-footer {
+  top: 44px;
+  bottom: 44px;
+}
+
+/* // page status */
+.page-active {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.page-prev {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+.page-next {
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+#base{
+  background-color: #949494
+}
+#next{
+  background-color: #8CC7A3
+}

@@ -1,0 +1,36 @@
+.header, .main {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.header {
+    top: 0;
+    background-color: #bbb;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+.main {
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.page {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    bottom: 0;
+    width: 100%;    /* overflow-y: auto; */
+}
+.page-active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.page-next {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+.page-pre {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}

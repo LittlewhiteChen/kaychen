@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+        <title>hammer Test</title>
+    </head>
+    <body>
+        <div id="test" class="test">
+            Gaohaoyang
+        </div>
+
+        <script src="js/hammer.min.js"></script>
+        <script type="text/javascript">
+        //创建一个新的hammer对象并且在初始化时指定要处理的dom元素
+        var hammertime = new Hammer(document.getElementById("test"));
+        //为该dom元素指定触屏移动事件
+        hammertime.on("pan", function (ev) {
+        //控制台输出
+        console.log(ev);
+        });
+        </script>
+    </body>
+</html>

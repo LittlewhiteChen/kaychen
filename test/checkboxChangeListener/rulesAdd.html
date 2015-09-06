@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>rules Add</title>
+        <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="rulesAdd.css">
+        <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="rulesAdd.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="header" class="col-xs-12">
+                    <h3 class="my-title"><span class="glyphicon glyphicon-list text-primary"></span> 添加规则</h3>
+                </div>
+            </div>
+            
+            
+            <!-- 规则预览具体内容 -->
+            <div class="row block-area">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button id="rules-preview-btn" class="btn btn-default" type="button" data-toggle="collapse" data-target="#rules-preview-div" aria-expanded="true" aria-controls="rules-preview-div">▼ 规则预览</button>
+                        </div>
+                    </div>
+                    <div class="row collapse in" id="rules-preview-div">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <!-- 前件区（包括前件权重）-->
+                                <div class="col-xs-7">
+                                    <h5>前件：</h5>
+                                    <table class="table table-bordered table-striped ">
+                                        <thead>
+                                            <tr>
+                                                <td>内容</td>
+                                                <td>权重</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr exampletr>
+                                                <td>前件示例（选择前件后，本行将被自动删除）</td>
+                                                <td><input type="number" class="form-control" value="100" min="1" max="100" required="required"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- 后件区（后件，规则可信度，创建人） -->
+                                <div class="col-xs-5">
+                                    <h5>后件：</h5>
+                                    <div class="right-name">后件示例（选择后件后，本行将被自动删除）</div>
+                                    <h5>规则可信度：</h5>
+                                    <input type="number" class="form-control" value="100" min="1" max="100" required="required">
+                                    <h5>创建人：</h5>
+                                    <input type="text" class="form-control" id="metaDataManagerName" name="metaDataManagerName" value="userName" readonly>
+                                </div>
+                            </div>
+                            <!-- 清空 提交按钮 -->
+                            <div class="row">
+                                <div class="col-xs-12 text-right buttons-area">
+                                    <button class="btn btn-default clear-all">清空</button>
+                                    <button class="btn btn-primary ok">提交</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- 勾选规则 -->
+            <!-- 前件勾选 -->
+            <div class="row block-area">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button id="leftBtn" class="btn btn-default" type="button" data-toggle="collapse" data-target="#leftDiv" aria-expanded="true" aria-controls="leftDiv">▼ 选择<strong>前件</strong></button>
+                        </div>
+                    </div>
+                    <div class="row collapse" id="leftDiv">
+                        <div class="col-xs-12">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="testCheckbox1" meta-id="1"> testCheckbox1
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="testCheckbox2" meta-id="2"> testCheckbox2
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 后件勾选 -->
+            <div class="row block-area">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button id="rightBtn" class="btn btn-default" type="button" data-toggle="collapse" data-target="#rightDiv" aria-expanded="false" aria-controls="rightDiv">▼ 选择<strong>后件</strong></button>
+                        </div>
+                    </div>
+                    <div class="row collapse" id="rightDiv">
+                        <div class="col-xs-12">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="right" value="radio1" meta-id-right="1">
+                                    radio1
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="right" value="radio2" meta-id-right="2">
+                                    radio2
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
